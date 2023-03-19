@@ -1,0 +1,264 @@
+.about {
+    background-color: white;
+    border-radius: 13px;
+    margin: 20px 10px 0 25px;
+    padding: 20px 0 0 40px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 25px;
+    margin-top: 25px;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.tag-line {
+    color: #BABABA;
+}
+
+.logo3 {
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.description {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description-row {
+    display: flex;
+    flex-shrink: 1 0 auto;
+    margin-bottom: 20px;
+    margin-right: 300px;
+}
+
+.edit {
+    cursor: pointer;
+    margin-left: 20px;
+    min-width: 1.5rem;
+}
+
+.verified-icon {
+    vertical-align: -6px;
+    margin-right: 5px;
+}
+
+.verify-link {
+    color: #4892F2;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-about {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.nav-about a {
+    text-decoration: none;
+    color: #BABABA;
+    font-weight: 500;
+}
+.hr-line {
+    margin-right: 60px;
+    border: none;
+    height: 2.5px;
+    background-color: #BABABA;
+}
+
+.nav-about a:hover {
+    text-decoration: underline  2.5px solid red;
+    text-underline-offset: 12px;
+    color: black;
+}
+
+.nav-about a.active {
+    text-decoration: underline 2.5px solid red;
+    text-underline-offset: 12px;
+    color: black;
+}
+
+.card {
+    box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+    height: 150px;
+}
+.card-title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.card-title-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.card-content-text {
+    font-weight: 300;
+}
+
+.edit-btn {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.help-icon {
+    min-height: 2rem;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    right: -600px;
+    bottom: 0;
+    width: 520px;
+    background-color: white;
+    transition: right 0.3s ease-in-out;
+    box-shadow: 0 0 2em 0em rgba(0, 0, 0, 0.25);
+  }
+  
+.popup.open {
+    right: 0;
+}
+  
+.content {
+    padding: 20px 20px 20px 30px;
+}
+
+.back-arrow {
+    cursor: pointer;
+}
+
+.card-list {
+    list-style: none;
+}
+
+.popup-title {
+    font-size: 2rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 50px 0 0 0;
+}
+
+form input {
+    padding: 10px 0 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    background: #F7F7F7;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 25px 0;
+}
+
+form input:focus {
+    outline: none;
+}
+
+.add-btn {
+    background-color: #FFF2F2;
+    border: none;
+    border-radius: 5px;
+    color: red;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+::placeholder {
+    font-weight: 500;
+    color: #BABABA;
+}
+
+.CardInForm {
+    border-radius: 5px;
+    box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.row-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.CardInFormIcon {
+    color: #BABABA;
+    cursor: pointer;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.delete {
+    vertical-align: -6px;
+    margin-left: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.count-div {
+    margin-left: auto;
+    background-color: #FFF2F2;
+    min-height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+}
+
+.count {
+    margin-left: 12px;
+    vertical-align: -9px;
+    font-weight: 600;
+    color: red;
+    font-size: 0.8rem;
+}
+
+.textarea {
+    height: 200px;
+    font-size: large;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.save-btn {
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

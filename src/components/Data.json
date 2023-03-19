@@ -1,0 +1,42 @@
+
+
+[
+
+    {
+        "Contact":[
+            {
+                "name":"Sales Team",
+                "email": [],
+                "phone": []
+            },
+            {
+                "name":"Marketing Team",
+                "email": [],
+                "phone": []
+            },
+            {
+                "name":"Dev Team",
+                "email": [],
+                "phone": []
+            }
+        ]
+    },
+    {
+        "Address":"C-1 / 351 /4 GIDC Makarpura, Vadodara 3910010"
+    },
+    {
+        "House of Operations":"Monday To Friday - 09:00 Am To 06:00 Pm"
+    },
+    {
+        "Social":[
+            "mdiWeb","mdiInstagram","mdiFacebook","mdiTwitter"
+        ]
+    },
+    {
+        "Statement":"You think it we ink it."
+    },
+    {
+        "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quia rerum dicta labore placeat provident error nisi minima tempore inventore."
+    }
+    
+]

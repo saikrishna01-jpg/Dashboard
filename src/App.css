@@ -1,38 +1,188 @@
-.App {
-  text-align: center;
+* {
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html { overflow-y: hidden; }
+
+.grid {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 0vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #EFF2F9;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 5vw 10px 5vw;
+  height: 40px;
+  gap: 10px;
+}
+
+.logo {
+  width: 40px;
+}
+
+.search {
+  width: 450px;
+  height: 40px;
+  padding: 10px 5px 10px 40px;
+  border-radius: 8px;
+  margin-left: 10vw;
+  font-size: 0.8em;
+  border: none;
+  height: 35px;
+  background: #EFF2F9 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+
+}
+
+::placeholder {
+  color: black;
+  font-weight: 700;
+}
+
+.dp {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.cart {
+  vertical-align: -6px;
+}
+
+.checkout-btn {
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 0.9em;
+  margin-left: auto;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.select {
+  border: none;
+}
+
+.sidebar {
+  height: 87vh;
+  margin: 20px 0 10px 30px;
+  padding-bottom: 5px;
+  border-radius: 13px;
+  background-color: white;
+  width: 14vw;
+  top: 25px;
+  position: sticky;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-ul {
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar a {
+  text-decoration: none;
+  height: 100%;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 0.25rem;
+  border-radius: 7px;
+  padding-left: 25px;
+  height: 35px;
+  padding-bottom: 5px;
+  color: #BABABA;
+  font-size: 0.8em;
+}
+
+.sidebar a.active {
+  background-color: #FFF2F2;
+  color: #C02029; 
+}
+
+.sidebar a:hover {
+  background-color: 	#dadedf;
+}
+
+.icon-sidebar {
+  margin-right: 15px;
+  color: #BABABA;
+}
+
+.sidebar a.active .icon-sidebar {
+  color: #C02029;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  margin-top: 3vh;
+  margin-left: 2.5vw;
+  gap: 10px;
+}
+
+.logo2 {
+  border-radius: 50%;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  margin: 0 auto 5px auto;
+  padding: 10px 10px 10px 10px;
+  width: 70%;
+  height: 17vh;
+  box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.help-txt1 {
+  font-weight: 700;
+  font-size: small;
+}
+
+.help-txt2 {
+  font-weight: 400;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size:smaller;
+}
+
+.help-btn {
   color: white;
+  background-color: black;
+  width: 100px;
+  height: 30px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
